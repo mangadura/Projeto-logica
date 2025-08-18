@@ -1,0 +1,17 @@
+Repetir
+    Se contador >= 100 então
+        Mostrar "Limite máximo de números atingido."
+        Parar o loop
+    Fim se
+
+    Mostrar "Digite um número:"
+    Ler numeros[contador]
+    contador <- contador + 1
+
+    Mostrar "Quer adicionar outro número? (s/n):"
+    Ler resposta
+
+Enquanto resposta = 's' ou resposta = 'S'
+
+Mostrar "Números armazenados:"
+Para i de 0
